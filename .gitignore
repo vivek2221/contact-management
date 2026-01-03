@@ -1,4 +1,4 @@
 #frontend
-ui/.env
-ui/node_modules
+.env
+node_modules
 
