@@ -1,0 +1,195 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  
+}
+#mainDivLoginPage{
+    background: #1a495c;
+    background: radial-gradient(circle, rgba(26, 73, 92, 1) 0%, rgba(102, 129, 148, 1) 50%, rgba(250, 249, 245, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loginDiv{
+    width:26vw;
+    height:60vh;
+    background-color: #86c6e0;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -3px 11px 66px -14px rgba(0,0,0,1);
+-webkit-box-shadow: -3px 11px 66px -14px rgba(0,0,0,1);
+-moz-box-shadow: -3px 11px 66px -14px rgba(0,0,0,1);
+
+}
+.inputfieldloginpage{
+    width: 22vw;
+    height: 7vh;
+    background-color: #ffffff;
+-webkit-box-shadow: 1px 1px 4px 0px #000000; 
+box-shadow: 1px 1px 4px 0px #000000;
+
+    outline: none;
+    border: none;
+    margin-bottom: 3vh;
+    border-radius: 9px;
+    padding-left: 10px ;
+    
+}
+#button{
+    width: 11vw;
+    height: 7vh;
+    background-color: rgb(228, 211, 209);
+    border-radius: 20px;
+    margin-left: 6.5vw;
+    border: none;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+#topSearchDiv{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0px 1.7vw;
+}
+#logoDiv{
+    
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#searchContact{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-color: rgba(44, 44, 44, 0.298);
+    padding-left:10px;
+    outline: none;
+    font-size: 20px;
+}
+#searchDiv{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    background-color: rgba(182, 181, 181, 0.744);
+    height:90vh;
+    width:100vw;
+    display: flex;
+}
+#sideNavBar{
+    width: 16%;
+    height:100%;
+    background-color: white;
+    border-right:1px solid black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#eachContacts{
+    width: 84%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+   
+}
+.contactBox{
+    width: 99%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin-top: 10px;
+    position: relative;
+       -webkit-box-shadow: 1px 1px 4px 0px #000000; 
+box-shadow: 1px 1px 4px 0px #000000;
+}
+.imageContact{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moreIconContact{
+    width: 26px;
+    opacity: 0.6;
+}
+#newContactAddDivMain{
+    background-color: rgba(255, 255, 255, 0.519);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formForAddingContact{
+    width: 28%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding-top: 30px;
+    -webkit-box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.56); 
+box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.56);
+    
+}
+.contactaddbtn{
+    width: 10vw;
+    height: 6vh;
+    background-color: #86c6e0;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+#editDiv{
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    z-index: 100;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    cursor: pointer;
+}
